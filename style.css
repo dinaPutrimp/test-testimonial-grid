@@ -53,14 +53,23 @@ body{
     background-position-x: 75%;
 }   
 
+.daniel p:nth-child(3){
+    color: var(--light-gray);
+}
+
 .jonathan{
     background-color: var(--very-dark-grayish-blue);
     grid-column: 3;
     color: white;
 }
 
+.jonathan p:nth-child(3){
+    color: var(--light-gray);
+}
+
 .jeanette{
     background-color: var(--white);
+    color: var(--very-dark-grayish-blue);
     grid-column: 2 / 1;
 }
 
@@ -70,11 +79,17 @@ body{
     color: white;
 }
 
+.patrick p:nth-child(3){
+    color: var(--light-gray);
+}
+
 .kira{
     background-color: var(--white);
     grid-row: 1 / span 2;
     grid-column: 4;
+    color: var(--very-dark-grayish-blue);
 }
+
 
 .profile{
     display: grid;
